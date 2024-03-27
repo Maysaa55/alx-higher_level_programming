@@ -7,4 +7,5 @@ elif int(number) > 0:
     print(number, " is positive")
 else:
     print(number, "is negative")
+print("\n")
 
