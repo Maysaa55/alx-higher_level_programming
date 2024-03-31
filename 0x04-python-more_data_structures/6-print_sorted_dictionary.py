@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-print_sorted_dictionary(a_dictionary):
+def print_sorted_dictionary(a_dictionary):
     list1 = list(a_dictionary.keys())
     list1.sort()
     for item in list1:
