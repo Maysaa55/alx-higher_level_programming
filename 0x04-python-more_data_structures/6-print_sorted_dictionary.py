@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+# 6-print_sorted_dictionary.py
+# Brennan D Baraban <375@holbertonschool.com>
+
+
 def print_sorted_dictionary(a_dictionary):
-    list1 = list(a_dictionary.keys())
-    list1.sort()
-    for item in list1:
-        print(item+": ", a_dictionary[item])
-    return 0
+    """Print a dictionary by ordered keys."""
+    [print("{}: {}".format(k, a_dictionary[k])) for k in sorted(a_dictionary)]
