@@ -6,5 +6,5 @@ class Rectangle(BaseGeometry):
 
     def __init__(self, width, height):
         """ make a construct for the rectangle class."""
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
