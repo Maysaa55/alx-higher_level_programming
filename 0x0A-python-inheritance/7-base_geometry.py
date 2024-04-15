@@ -14,7 +14,7 @@ class BaseGeometry:
         name (any): the name of the var.
         value (any): the value of the var.
         """
-        if type(value)is not int:
+        if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise TypeError("{} must be greater than 0".format(name))
