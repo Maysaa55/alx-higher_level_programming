@@ -19,8 +19,6 @@ class BaseGeometry:
             TypeError: If value is not an integer.
             ValueError: If value is <= 0.
         """
-        if value == None and name == None:
-            raise ValueError("integer_validator missing 2 arguements")
         if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
