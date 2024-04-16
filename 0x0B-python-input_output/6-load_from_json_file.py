@@ -9,7 +9,7 @@ def load_from_json_file(filename):
     filename (any): the json file.
     Returns:
     nothing.
-    """ 
+    """
 
     with open(filename) as fl:
         return json.load(fl)
