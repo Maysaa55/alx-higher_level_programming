@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ defines a function reads a file and print it."""
 
+
 def read_file(filename=""):
     """representing the function.
     Args:
