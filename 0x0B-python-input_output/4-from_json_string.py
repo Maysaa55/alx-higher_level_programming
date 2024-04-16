@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines a function return the json string to the real object."""
+import json
 
 
 def from_json_string(my_str):
@@ -10,4 +11,4 @@ def from_json_string(my_str):
     the real object.
     """
 
-    return json.load(my_str)
+    return json.loads(my_str)
