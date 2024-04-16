@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
     the number of characters added to the file.
     """
 
-    with open(filename, mode= 'w', encoding= "utf-8") as fl:
+    with open(filename, mode='w', encoding="utf-8") as fl:
         return (fl.write(text))
