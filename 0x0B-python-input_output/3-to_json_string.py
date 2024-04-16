@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """ Define a function returns the json of an object."""
-
-
 import json
+
+
 def to_json_string(my_obj):
     """represents the function.
     Args:
