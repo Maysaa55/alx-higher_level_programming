@@ -1,3 +1,3 @@
 -- prints the discription of the table.
-SHOW `first_table`;
+SHOW CREATE `first_table`;
 
